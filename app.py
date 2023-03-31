@@ -11,6 +11,7 @@ app.config.from_object(DevelopmentConfig)
 
 @app.route('/login', methods = ['GET', 'POST'])
 def index():
+    print('Hola mi gente')
     return render_template('login.html')
 
 if __name__ == '__main__':
