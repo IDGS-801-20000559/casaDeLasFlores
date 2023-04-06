@@ -17,3 +17,11 @@ SQLAlchemy==2.0.4
 typing_extensions==4.5.0
 Werkzeug==2.2.3
 WTForms==3.0.1
+flask
+flask-sqlalchemy
+flask-security
+email-validator
+mysqlclient
+flask-marshmallow
+bcrypt
+pytz
